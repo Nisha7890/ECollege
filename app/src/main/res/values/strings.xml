@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Student Helper</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="home_text">
+    "Talk to us about which program  best  suits your  professional goals."</string>
+
+    <string name="need_help">
+        "Need help choosing a program."
+          </string>
+    <string name="title_activity_notice">NoticeActivity</string>
+    <string name="title_activity_notice_list">NoticeListActivity</string>
+    <string name="title_activity_syllabus">SyllabusActivity</string>
+    <string name="title_activity_course">CourseActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--<string name="bim"> The Bachelor of Information Management (BIM) programme is a four year (eight semester)-->
+    <!--programme of Tribhuvan University offering an integrated IT and Management Courses. This course is envisaged-->
+    <!--to enable students to develop skill in information technology, and at the same time make them able to understand-->
+    <!--the professional expertise while they occupy decision making positions. In Nepal fourteen (14)-->
+    <!--Business/IT colleges offers Bachelor of Information Management (BIM) program with affililation-->
+    <!--from Tribhuvan University. </string>-->
+
+    <string name="Bim">
+        An integration of two major disciplines, management and technology, BIM aids your analytical and technical
+        skills required to make best use of the ever evolving world of information. Information provides a great
+        deal of power and en route to the degree, students learn how to master that power with an elevated maturity
+        and responsibility. The objective of this undergraduate program offered by Tribhuvan University is to
+        teach the students about the disciplines of properly managing information for its most ethical and
+        productive use. The world of information is vast and many areas of it remain unexplored. The degree offers an
+        opportunity to study and discover the possibilities in the world of information as well as take those discoveries
+        to the market for their desired purpose.
+
+    </string>
+
+    <string name="about">
+
+        When you have two options, flipping the coin cannot be the only solution. A choice that will dictate your life,
+        a choice that will stick to you for a long time. With the hardships of joining a new institution comes an
+        unfathomable decision to make, a decision to shape your future and maybe your entire life.
+
+        At Student Helper we’re constantly working to help young students take their future in their own hands.
+        We’re gathering information about everything a high-school graduate might need before and after joining a college.
+        From general college information to alumni testimonials, important notices to archived question papers,
+        we will be helping you to keep track of your future with a few simple clicks.
+
+    </string>
+
+    <!--<string name="bba"> The Bachelor of Business Administration (BBA) of Tribhuvan University is a special-->
+    <!--program in semester system of Tribhuvan University, designed to develop socially responsive, creative,-->
+    <!--and result oriented management professionals to fill up the middle level managerial positions in the-->
+    <!--rapidly growing business sector in Nepal and abroad. Currently twenty four (24) Business School offers-->
+    <!--BBA program in affiliation with Tribhuvan University in Nepal.</string>-->
+
+    <string name="bba">
+        A degree for those who want the driver’s seat. Learn the disciplines of business administration to get your
+        career started on the right path. Four years to learn and enhance your managerial skills theoretically
+        and practically. Offered by many popular universities, BBA is one of the most widespread business degrees
+        in Nepal. BBA is designed to couple the business studies and their application in the real world of today.
+        The execution of one’s creative ideas teamed up with the business knowledge to successfully take it to the
+        market and make money.
+
+    </string>
+
+
+    <string name="title_activity_course1">CourseActivity1</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    <string name="title_activity_bba_quesction">BbaQuesctionActivity</string>
+    <string name="title_activity_bim_question">BimQuestionActivity</string>
+    <string name="title_activity_bba_syallbus">BbaSyallbusActivity</string>
+    <string name="title_activity_bim_syllabus">BimSyllabusActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+
+    <string name="nisha">" Android Developer,\ntraveller and \n overall thinker ."</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_viewflipper">ViewflipperActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <string name="title_activity_bba_college_info">BbaCollegeInfoActivity</string>
+    <string name="title_activity_bim_college_info">BimCollegeInfoActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_bba_syllabus2">BbaSyllabusActivity2</string>
+    <string name="title_activity_bim1st">Bim1st</string>
+    <string name="title_activity_bim2nd">Bim2nd</string>
+    <string name="title_activity_bim3rd">Bim3rd</string>
+    <string name="title_activity_bim4th">Bim4th</string>
+    <string name="title_activity_testimonials">Testimonials</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_bim5th">Bim5th</string>
+    <string name="title_activity_bim6th">Bim6th</string>
+    <string name="title_activity_bim7th">Bim7th</string>
+    <string name="title_activity_bim8th">Bim8th</string>
+    <string name="title_activity_bba1st">Bba1st</string>
+    <string name="title_activity_bba2nd">Bba2nd</string>
+    <string name="title_activity_bba3rd">Bba3rd</string>
+    <string name="title_activity_bba4th">Bba4th</string>
+    <string name="title_activity_bba5th">Bba5th</string>
+    <string name="title_activity_logout1">Logout1</string>
+    <string name="title_activity_signin2">Signin2</string>
+    <string name="title_activity_book_store">BookStore</string>
+    <string name="title_activity_sell_book">SellBookActivity</string>
+    <string name="title_activity_postedbook">PostedbookActivity</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+
+
+</resources>
+
+

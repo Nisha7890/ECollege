@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sunbi.e_college.Activity.AboutUsActivity"
+    tools:showIn="@layout/activity_about_us">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:id="@+id/header">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:id="@+id/back"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="8dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/shlogo"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/headerlogo"
+
+       />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_downarrow"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/headerlogo"
+            android:id="@+id/aboutusarrow"
+            android:padding="8dp"/>
+
+
+        <View
+            android:layout_marginTop="8dp"
+            android:background="@color/linecolor"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@id/aboutusarrow"/>
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/backgroundColor"
+        android:id="@+id/footer"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rlayout"
+            android:gravity="center_horizontal">
+
+        <ImageView
+        android:padding="8dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_copyright"
+        android:id="@+id/copyright"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Copy Right 2018 All Rights Reserved By"
+            android:fontFamily="sans-serif"
+            android:layout_toRightOf="@id/copyright"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:textColor="@color/colorPrimary"
+            android:paddingLeft="8dp"
+            android:id="@+id/copy"
+            android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sunbi Design Studio"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimary"
+            android:layout_below="@id/rlayout"
+            android:gravity="center_horizontal"
+            android:paddingBottom="8dp"/>
+        <!--<ImageView-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_twitter"-->
+        <!--android:id="@+id/twitter"-->
+            <!--android:layout_toRightOf="@id/facebook"/>-->
+
+        <!--<ImageView-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_linked"-->
+        <!--android:id="@+id/linkedin"-->
+            <!--android:layout_toRightOf="@id/twitter"/>-->
+
+        <!--<ImageView-->
+        <!--android:padding="10dp"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_instagram"-->
+        <!--android:id="@+id/insta"-->
+            <!--android:layout_toRightOf="@id/linkedin"/>-->
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:fontFamily="serif"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:textAlignment="center"/>
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/about"
+            android:textColor="#000"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:id="@+id/txtabout"
+            android:lineSpacingExtra="10dp"
+            android:padding="8dp"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+

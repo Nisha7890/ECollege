@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_about_us"-->
+            <!--android:title="About Us"-->
+            <!--android:icon="@drawable/ic_home" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_notice"-->
+            <!--android:title="Notice"-->
+            <!--android:icon="@drawable/ic_notification"/>-->
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_feedback"-->
+            <!--android:icon="@drawable/ic_question"-->
+            <!--android:title="FeeBack" />-->
+
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone_book"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/nav_rateus"
+            android:title="Rate Us"
+            android:icon="@drawable/ic_rate"/>
+
+        <item
+            android:id="@+id/nav_testimonials"
+            android:title="Testimonials"
+            android:icon="@drawable/ic_chat"/>
+
+        <item
+            android:id="@+id/nav_bookstore"
+            android:title="Book Store"
+            android:icon="@drawable/ic_bookstore"/>
+
+
+        <item
+            android:id="@+id/nav_youraccount"
+            android:title="Your Account"
+            android:icon="@drawable/ic_account"/>
+
+        <!--<item-->
+            <!--android:id="@+id/nav_login"-->
+            <!--android:title="Login"-->
+            <!--android:icon="@drawable/ic_login"/>-->
+
+        <item
+            android:id="@+id/nav_signup"
+            android:title="Register"
+            android:icon="@drawable/ic_register"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_sellbook"-->
+            <!--android:title="Sell Book"-->
+            <!--android:icon="@drawable/ic_login"/>-->
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_logout"-->
+            <!--android:icon="@drawable/ic_logout"-->
+            <!--android:title="Log Out " />-->
+
+
+
+
+
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_syllabus"-->
+            <!--android:title="Syllabus"-->
+            <!--android:icon="@drawable/ic_notebook"/>-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_collegeinfo"-->
+        <!--android:icon="@drawable/ic_menu_send"-->
+        <!--android:title="College Info" />-->
+    </group>
+
+    <item android:title=" Questions">
+        <menu>
+            <item
+                android:id="@+id/nav_bimquestion"
+                android:icon="@drawable/ic_question"
+                android:title="BIM Questions" />
+            <item
+                android:id="@+id/nav_bbaquestion"
+                android:icon="@drawable/ic_question"
+                android:title="BBA Questions" />
+        </menu>
+    </item>
+
+    <item android:title=" Syllabus">
+        <menu>
+            <item
+                android:id="@+id/nav_bimsyllabus"
+                android:icon="@drawable/ic_syllabus"
+                android:title="BIM Syllabus" />
+            <item
+                android:id="@+id/nav_bbasyllabus"
+                android:icon="@drawable/ic_syllabus"
+                android:title="BBA Syllabus" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logout"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:id="@+id/accountexist"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="right"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_phone_book"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User_Name"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:padding="8dp"
+        android:id="@+id/username"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/backgroundColor">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell Books"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+            android:id="@+id/sellBooks"
+            android:layout_gravity="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posted Books"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+            android:id="@+id/postedBooks"
+            android:layout_gravity="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+            android:id="@+id/myprofile"
+            android:layout_gravity="center"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/colorPrimary"
+            android:padding="8dp"
+            android:id="@+id/logout"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center"
+            android:textSize="16sp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
